@@ -1,0 +1,86 @@
+/*PAGE*/
+body{ 
+    margin:0 ;
+    padding:0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: #eef6ff;
+}
+/*CARTE*/
+.login-container{
+    background: transparent;
+}
+.login-card{
+   width: 350px;
+   padding: 20px;
+   box-shadow: none;
+   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+   border-radius: 20px;
+   margin: auto;
+}
+/*TITRE*/
+.login-card h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+/*CHAMPS*/
+.input-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 5px;
+}
+.input-box span{
+    font-size: 19px;
+}
+.input-box input{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+    font-size: 14px;
+}
+/*BUTTON*/
+.login-btn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background:#0b4d84;
+    color: white;
+    font-size: 14PX;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login-btn:hover{
+    background: #083760;
+}
+/*BAS*/
+.bottom-text{
+    text-align: center;
+    margin-top: 20px;
+    color: gray;   
+}
+
+.bottom-text a{
+    text-decoration: none;
+    color: #0b4d84;
+    font-weight: bold;
+
+
+}
+/*RETOUR*/
+.back{
+    text-decoration: none;
+    color: #0b4d84;
+    margin-bottom: 20px;
+    font-weight: bold;
+}

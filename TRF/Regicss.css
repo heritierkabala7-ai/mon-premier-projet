@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background: #f5f7fa;
+    color: #0f172a;
+}
+/* HEADER */
+.header{
+    width: 100%;
+    background: white;
+    padding: 5px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    top: 0;
+}
+.logo-box{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.logo-icon{
+    width: 45px;
+    height: 45px;
+    background: #0b5d84;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+}
+.logo-box h1{
+    font-size: 22px;
+    font-weight: 800;
+}
+.logo-box span{
+    color: gray;
+    font-size: 14px;
+}
+.login-btn{
+    padding: 9px 9px;
+    border: none;
+    background: transparent;
+    color: #0b4d84;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: .3s;
+}
+.login-btn a{
+    text-decoration: none;
+}
+.login-btn:hover{
+    border-bottom: 2px solid;
+    
+}
+
+.signup-btn{
+   padding: 12px 12px;
+   border: none;
+   background: #0b4d84;
+   color: rgb(246, 250, 246);
+   border-radius: 12px;
+   font-weight: bold;
+   cursor: pointer;
+   transition: .3s;
+}
+.signup-btn a{
+    text-decoration: none;
+    color: white;
+}
+.signup-btn:hover{
+    background: #0b4d84;
+}
+/* HERO*/
+.hero{
+    padding: 40px;
+}
+/* BADGE */
+.badge{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    padding: 8px 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.green-dot{
+    width: 10px;
+    height: 10px;
+    background:#11b44b ;
+    border-radius: 50px;
+}
+/* TITLE */
+.hero h2 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 800;
+    margin-bottom: 20px;  
+}
+.hero h2 span{
+    display: block;
+    color: #0b4b84;
+}
+/* TEXT */
+.hero-text{
+    max-width: 750px;
+    margin: auto;
+    color: #6b7280;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+/* BUTTONS */
+.start-btn{
+    padding: 16px 34px;
+    border: none;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s
+    
+}
+.start-btn:hover{
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+.account-btn{
+    padding: 16px 34px;*
+    border: 1px solid #d1d5db;
+    background: white;
+    color: #111827;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    cursor: pointer;
+    transition: .3s;
+}
+.account-btn:hover{
+    background: #f3f4f6;
+}
+.description{
+    font-size: 20px;
+    color: #555;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+/* PAYMENT */
+.payment p{
+    margin-bottom: 18px;
+    letter-spacing: 5px;
+    color: #777;
+    font-size: 14px;
+}
+.payment-buttons{
+    display: flex;
+    gap: 20px;
+}
+.payment-buttons button{
+    border: none;
+    color: white;
+    padding: 18px 30px;
+    border-radius: 12px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.mpesa{
+    background: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding:5px 10px ;
+}
+
+
+.orange{
+    background: #ff7a00;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.airtel{
+    background:red;
+    color:white;
+    font-size:15px;
+    border-radius:10px ;
+    padding:5px 10px ;
+
+
+}
+.affrimoney{
+    background: #d81d7a;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.bill-card{
+    position: absolute;
+    bottom: -790px;
+    left: 80px;
+    background: white;
+    padding: 18px;
+    border-radius: 9px;
+    width: 400px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.bill-card small{
+    color: gray;
+}
+.bill-card h2{
+    margin-top: 10px;
+}
+.paid{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: green;
+    font-weight: bold;
+}
+/* IMAGE PRINCIPAL*/
+section{
+    padding: 40px
+}
+
+
+.factures{
+    width: 100%;
+    background:white;
+    padding: ;
+}
+
+.factures-title{
+    margin-left: 20px;
+}
+
+.factures-title h4{
+    font-weight: 800;
+    font-family: 'Cormorant Garamond', serif;
+} 
+
+.factures-title h2 {
+    font-size: 35px;
+    font-weight: 800;
+    font-family: 'Lora', serif;
+}
+
+.factures-card{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.mobile-money,
+.suivi-consommation,
+.recus-historique,
+.securise,
+.facture,
+.notifications{
+    height: 200px;
+    border: 1px solid #dbe4ee;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 15px 10px;
+    line-height:1.5 ;
+    transition: all 0.5s ease;
+}
+
+.mobile-money:hover,
+.suivi-consommation:hover,
+.recus-historique:hover,
+.securise:hover,
+.facture:hover,
+.notifications:hover{
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.mobile-money p:first-of-type,
+.suivi-consommation p:first-of-type,
+.recus-historique p:first-of-type,
+.securise p:first-of-type,
+.facture p:first-of-type,
+.notifications p:first-of-type{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+}
+
+.mobile-money p:last-of-type,
+.suivi-consommation p:last-of-type,
+.recus-historique p:last-of-type,
+.securise p:last-of-type,
+.facture p:last-of-type,
+.notifications p:last-of-type{
+    color: #64748b;
+    font-family: 'Playfair Display', serif;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    background:#9ca3af3a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+footer{
+    width: 100%;
+    background: #64748b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+}

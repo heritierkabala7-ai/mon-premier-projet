@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer votre Compte</title>
+    <link rel="stylesheet" href="connexion2.css">
+</head>
+<body class="register-body">
+    <div class="register-container">
+        <!--RETOUR-->
+        <a href="Regideso.html" class="back-link">← Retour à l'acceuil</a>
+        <!--TITRE-->
+        <h1>Créer un compte</h1>
+
+        <!--FORMULAIRE-->
+        <form class="register-form">
+
+            <!--NOM-->
+            <label>Nom complet</label>
+            <input type="text">
+
+            <!--TELEPHONE-->
+            <label>Numéro de téléphone</label>
+            <input type="text" placeholder="+243823363701">
+
+            <!--PASSWORD-->
+            <label>Mot de passe (min.6 caractères)</label>
+            <input type="password">
+
+            <!--LIGNE DOUBLE-->
+            <div class="double-fields">
+                <div class="field">
+                    <label>Commune</label>
+                    <select>
+                        <option>Choisir</option>
+                        <option>Gombe</option>
+                        <option>Limete</option>
+                        <option>Ngaliema</option>
+                        <option>Kasa-Vubu</option>
+                        <option>Ngiri-Ngiri</option>
+                        <option>Bumbu</option>
+                        <option>Lingwala</option>
+                        <option>Matete</option>
+                        <option>Kinshasa</option>
+                        <option>Lemba</option>
+                        <option>Kintambo</option>
+                        <option>Kimbaseke</option>
+                        <option>Kisenso</option>
+                        <option>Bandalungwa</option>
+                        <option>Nsele</option>
+                        <option>Makala</option>
+                        <option>Ngaba</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label>N° Compteur (optionnel)</label>
+                    <input type="text" placeholder="Auto">
+                </div>
+            </div>
+            <!--ADRESSE-->
+            <label>Adresse</label>
+            <input type="text" placeholder="AV. Kasai n°100">
+
+            <!--BOUTON-->
+            <button type="submit">Créer mon compte</button>
+        </form>
+
+        <!--BAS-->
+        <p class="bottom-login">
+            Déjà un compte ?
+            <a href="connexion.html">Se connecter</a>
+        </p>
+    </div>   
+</body>
+</html>

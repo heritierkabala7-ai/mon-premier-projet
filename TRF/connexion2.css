@@ -1,0 +1,79 @@
+.register-body{
+    background: #eaf3fb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.register-container{
+    max-width: 600px;
+    margin: 50px auto;
+    background: #0B4D84;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.back-link{
+    color: white;
+    text-decoration: none;
+}
+.register-container h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.register-subtitle{
+    color: #dbeafe;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.register-form label{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 7px;
+    display: block;
+}
+.register-form input,
+.register-form select{
+    width: 100%;
+    height: 32px;
+    border: none;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin-bottom: 17px;
+    background: #1f6fb2;
+    color: white;
+}
+.register-form input::placeholder{
+    color: #dbeafe;
+}
+.double-fields{
+    display: flex;
+    gap: 15px;
+}
+.field{
+    flex:4;
+    width: 50%;
+}
+.register-form button{
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 12px;
+    background: #60a5fa;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.register-form button:hover{
+    background: #3b82f6;
+}
+.bottom-login{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+}
+.bottom-login a{
+    color: #93c5fd;
+    text-decoration: none;
+    font-weight: bold;
+}
